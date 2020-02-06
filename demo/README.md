@@ -1,23 +1,7 @@
 # Gazebo 실습 
 
-## build 방법 
+## 실습1. hello world 출력하기 
 
-- build 디렉토리 생성
-```bash
-> mkdir build 
-```    
-- Plugin 빌드
-```bash
-> cd build
-> cmake ..
-> make
-```
-## 환경변수 설정
-```bash
-> export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${PX4_Simulation}/demo/velodyne_plugin/build
-```
-## 실행 
-```bash
-> gazebo --verbose ../velodyne.world
-> ./vel 3  (new terminal)
-```
+## 실습2. 무중력 world 만들기 
+
+## 실습3. velodyne 센서 속도 조절하기
