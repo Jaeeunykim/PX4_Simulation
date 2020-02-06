@@ -11,12 +11,12 @@
 > cd build
 > cmake ..
 > make
-```    
-- 환경변수 설정
+```
+## 환경변수 설정
 ```bash
 > export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${PX4_Simulation}/demo/velodyne_plugin/build
 ```
-- 실행 
+## 실행 
 ```bash
 > gazebo --verbose ../velodyne.world
 > ./vel 3  (new terminal)
