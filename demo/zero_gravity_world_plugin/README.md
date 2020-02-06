@@ -23,8 +23,5 @@
 ```
 ## 실행 
 ```bash
-> gazebo --verbose ../velodyne.world
-> ./vel 3  (new terminal)
+> gazebo --verbose ../gravity.world
 ```
-
-## 실행 결과 

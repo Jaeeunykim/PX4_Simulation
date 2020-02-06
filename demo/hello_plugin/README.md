@@ -19,6 +19,5 @@
 ```
 ## 실행 
 ```bash
-> gazebo --verbose ../velodyne.world
-> ./vel 3  (new terminal)
+> gzserver --verbose hello.world
 ```
